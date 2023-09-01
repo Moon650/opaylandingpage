@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    padding-left: 10%;
+    width: 100%;
+    padding-right: 10%;
+    background-color: #ffffff;
+    align-items: center;
+}
+.navbar .logo img{
+    margin-left: 5%;
+}
+.navbar .logo sup{
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 2.5%;
+    left: 12.5%;
+    padding-right: 50%; 
+    color: #b7b6bd;
+}
+.navbar .nav-link{
+    display: flex;
+    margin-right: 10%;
+    width: 100%;
+}
+.navbar .nav-link li{
+    list-style: none;
+    margin-right: 20px;
+}
+.navbar .nav-link li a{
+    text-decoration: none;
+    color: #b7b6bd;
+    font-size: 16px;
+}
+.nav-link li a:hover{
+    color: #26a47f;
+    text-decoration: underline;
+}
+.navbar .cta{
+    list-style: none;
+    width: 25%;
+    align-items: center;
+    color: #009961;
+}
+.navbar .cta button{
+    background: #26a47f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+}
+.navbar .cta button:hover{
+    background: transparent;
+    color: #26a47f;
+    cursor: pointer;
+}
+ /* navbar end here */
+ /* banner section  */
+.banner-section{
+    background-color: #f3fffd;
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+}
+.banner-section .banner-left{
+    width: 30%;
+    margin-right: 5%;
+    /* margin-right: 20%; */
+}
+.banner-left .banner-text{
+    margin-top: 80px;
+}
+.banner-left .banner-text h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #32414c;
+}
+.banner-left .banner-text a{
+    color: #26a47f;
+}
+.banner-left .banner-text p{
+    line-height: 18px;
+    font-size: 16px;
+    color: #32414c;
+    margin-bottom: 30px;
+}
+.banner-text img{
+    margin-right: 20px;
+}
+.banner-text img:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+.banner-right{
+    width: 31%;
+}
+.banner-right img{
+    margin-top: 13%;
+}
